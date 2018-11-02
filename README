@@ -1,0 +1,17 @@
+Server - Receives the UDP Packets 
+
+Client - Sends UDP Packets to an IP
+
+---- COMPILE -----
+
+sh build.sh
+
+
+----- START SERVER ------
+
+./server [NUM_OF_RECEIVER_THREADS]
+
+
+----- START CLIENT -------
+
+./client [IP:PORT] 
